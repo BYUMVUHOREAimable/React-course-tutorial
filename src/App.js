@@ -9,13 +9,10 @@
 import TheUseOfRef from "./Components/TheUseOfRef";
 
 function App() {
- 
-  
   return (
     <div className="App">
       
       <TheUseOfRef />;
-    
     
       {/*
     <TheUseOfEffect />
