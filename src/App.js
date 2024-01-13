@@ -2,15 +2,29 @@
 //import TheUseOfState from "./Components/TheUseOfState";
 //import Login from "./Components/Login";
 //import "./App.css";
-import TernaryOperator from "./Components/TernaryOperator";
+//import TernaryOperator from "./Components/TernaryOperator";
 
+//import TheUseOfEffect from "./Components/TheUseOfEffect";
+
+import TheUseOfRef from "./Components/TheUseOfRef";
 
 function App() {
  
   
   return (
     <div className="App">
-      <TernaryOperator/>
+      
+      <TheUseOfRef />;
+    
+    
+      {/*
+    <TheUseOfEffect />
+  */}
+       
+      
+      {/*
+       <TernaryOperator />
+  */}
       
      {/*
      <Login />
