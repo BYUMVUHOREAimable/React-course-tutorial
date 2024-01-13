@@ -1,0 +1,40 @@
+.ternaryOperator{
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btnOfName{
+  margin: 20px;
+}
+
+
+.form{
+  margin-left: 30%;
+  padding: 2px;
+  background-color: rgb(118, 108, 127);
+  width: 30%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login{
+  margin-top: 2px;
+  color: rgb(82, 75, 75);
+}
+
+.input{
+  width: 90%;
+  height: 30px;
+  margin: 5px;
+}
+
+.submit{
+  background-color: rgb(212, 101, 101);
+  width: 60%;
+  height: 30px;
+  margin: 5px;
+}

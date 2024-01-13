@@ -1,15 +1,30 @@
+//import TheUseOfProps from "./Components/TheUseOfProps";
+//import TheUseOfState from "./Components/TheUseOfState";
+//import Login from "./Components/Login";
+//import "./App.css";
+import TernaryOperator from "./Components/TernaryOperator";
 
 
 function App() {
-  var greating = "Hello ";
-  var myName = "Aimable";
-
+ 
+  
   return (
     <div className="App">
-    <button>Clickable button</button><br />
-      <input type="text" />
-      <h1>{greating} {myName} this is me</h1>
-      <h2>good morning</h2>
+      <TernaryOperator/>
+      
+     {/*
+     <Login />
+    */}
+      
+      {/*
+      <TheUseOfState / >
+      * /}
+
+      {/* 
+      <TheUseOfProps firstname="Aimable" lastname="BYUMVUHORE" email="aimablebyumvuhore@gmail.com"/>
+      <TheUseOfProps lastname="IRADUKUNDA" email="celeverieniradukunda@gmail.com" firstname="Celeverien"/>
+      <TheUseOfProps firstname="Brandine" lastname="TUYISENGE" email="tuyisengebrandine@gmail.com"/>
+  */}
     </div>
   );
 }
