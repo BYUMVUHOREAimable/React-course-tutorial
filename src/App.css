@@ -1,9 +1,20 @@
-.ternaryOperator, .TheUseOfEffect, .TheUseOfRef{
+.ternaryOperator, .TheUseOfEffect, .TheUseOfRef, .todolist, .add{
   display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-top: 10px;
 
+}
+
+/* todolist in task file */
+.task{
+  margin: 10px auto 0 auto;
+  font-size: 10px;
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .btnOfName{

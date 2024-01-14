@@ -4,15 +4,21 @@
 //import "./App.css";
 //import TernaryOperator from "./Components/TernaryOperator";
 
+//import Task from "./Components/Task";
+import ToDoList from "./Components/ToDoList";
+
 //import TheUseOfEffect from "./Components/TheUseOfEffect";
 
-import TheUseOfRef from "./Components/TheUseOfRef";
+//import TheUseOfRef from "./Components/TheUseOfRef";
 
 function App() {
   return (
     <div className="App">
       
-      <TheUseOfRef />;
+      <ToDoList />
+    
+
+      {/*<TheUseOfRef />*/}
     
       {/*
     <TheUseOfEffect />
