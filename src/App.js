@@ -5,34 +5,51 @@
 //import TernaryOperator from "./Components/TernaryOperator";
 
 //import Task from "./Components/Task";
-import ToDoList from "./Components/ToDoList";
+//import Form from "./Components/Form";
+//import ToDoList from "./Components/ToDoList";
 
-//import TheUseOfEffect from "./Components/TheUseOfEffect";
+//import TheUseOfEfcolorRed}; from "./Components/TheUseOfEffect";
 
 //import TheUseOfRef from "./Components/TheUseOfRef";
+
+//import { ButtonRed, ButtonBlue, ButtonGreen } from "./Components/Buttons";
+
+//import React, {useState,useEffect} from "react";
+import { Button } from "./Components/Subscribe";
 
 function App() {
   return (
     <div className="App">
       
-      <ToDoList />
-    
+      <Button color={"blue"} darkColor={"darkblue"} large>
+        Subscribe
+      </Button>
+
+      {/* 
+      <ButtonRed>This is a styled 
+       red button</ButtonRed>
+      <ButtonBlue>This is a styled blue button</ButtonBlue>
+       <ButtonGreen>This is a styled green button</ButtonGreen>
+       */}
+      
+
+      {/*<Form/>*/}
+      {/*<ToDoList />*/}
 
       {/*<TheUseOfRef />*/}
-    
+
       {/*
     <TheUseOfEffect />
   */}
-       
-      
+
       {/*
        <TernaryOperator />
   */}
-      
-     {/*
+
+      {/*
      <Login />
     */}
-      
+
       {/*
       <TheUseOfState / >
       * /}
