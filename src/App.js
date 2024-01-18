@@ -15,15 +15,31 @@
 //import { ButtonRed, ButtonBlue, ButtonGreen } from "./Components/Buttons";
 
 //import React, {useState,useEffect} from "react";
-import { Button } from "./Components/Subscribe";
+//import { Button } from "./Components/Subscribe";
+import AboutUs from "./Pages/AboutUs";
+import Login from "./Pages/Login";
+import Main from "./Pages/Main";
+import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       
-      <Button color={"blue"} darkColor={"darkblue"} large>
+      <Router>
+        <Routes>
+          <Route path="/" exact element={<Main />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/about" element={<AboutUs />} />
+        </Routes>
+      </Router>
+      
+      
+      
+      
+       {/* <Button color={"blue"} darkColor={"darkblue"} large>
         Subscribe
       </Button>
+      */}
 
       {/* 
       <ButtonRed>This is a styled 
